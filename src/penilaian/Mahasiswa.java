@@ -3,21 +3,22 @@ package penilaian;
 
 
 public class Mahasiswa {
-    String nama;
-    String npm;
+     private String nama;
+    private String npm;
     
-    public String getNama(){
-       return nama;  
-   }
-    public String getNpm(){
-       return npm;  
-   }
+    public String getNama() {
+        return nama;
+    }
     
-    public void setNama (String Nama){
-       nama = Nama;
-   }
+    public void setNama(String nama) {
+        this.nama = nama;
+    }
     
-    public void setNpm (String Npm){
-       npm = Npm;
-   }
+    public String getNpm() {
+        return npm;
+    }
+    
+    public void setNpm(String npm) {
+        this.npm = npm;
+    }
 }
